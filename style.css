@@ -1,0 +1,17 @@
+body{font-family:Arial;background:#fff0f6;margin:0}
+header{background:#ec4899;color:white;padding:15px;text-align:center}
+nav{display:flex;background:#f472b6}
+nav button{flex:1;padding:10px;border:none;background:none;color:white}
+.section{display:none;padding:20px}
+.section.active{display:block}
+
+#stage{
+width:300px;height:300px;
+overflow:hidden;border:5px solid #ec4899;
+margin:auto;cursor:grab;
+}
+#slide{position:relative}
+
+.compare{display:flex;gap:20px}
+.acid{color:red}
+.alkaline{color:blue}
